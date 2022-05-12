@@ -1,0 +1,43 @@
+table {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.5em;
+  border-collapse: collapse;
+}
+
+tr {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+th,
+td {
+  padding-top: 0.5em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+}
+
+th {
+  color: #333333;
+  text-align: left;
+}
+
+td {
+  color: #111111;
+}
+
+button {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.3em;
+  color: #0000ee;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px dashed currentColor;
+}
